@@ -1,0 +1,5 @@
+{
+  "doc-16ab217e36edd9cf05739397a0b135ed": {
+    "content": "In just three years, Variational Autoencoders (VAEs) have emerged as one of\nthe most popular approaches to unsupervised learning of complicated\ndistributions. VAEs are appealing because they are built on top of standard\nfunction approximators (neural networks), and can be trained with stochastic\ngradient descent. VAEs have already shown promise in generating many kinds of\ncomplicated data, including handwritten digits, faces, house numbers, CIFAR\nimages, physical models of scenes, segmentation, and predicting the future from\nstatic images. This tutorial introduces the intuitions behind VAEs, explains\nthe mathematics behind them, and describes some empirical behavior. No prior\nknowledge of variational Bayesian methods is assumed."
+  }
+}

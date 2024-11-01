@@ -1,0 +1,8 @@
+{
+  "chunk-665759e1f61e579fcf603eddd3bfe0d9": {
+    "tokens": 207,
+    "content": "This paper proposes a theoretical framework on the mechanism of autoencoders.\nTo the encoder part, under the main use of dimensionality reduction, we\ninvestigate its two fundamental properties: bijective maps and data\ndisentangling. The general construction methods of an encoder that satisfies\neither or both of the above two properties are given. The generalization\nmechanism of autoencoders is modeled. Based on the theoretical framework above,\nwe explain some experimental results of variational autoencoders, denoising\nautoencoders, and linear-unit autoencoders, with emphasis on the interpretation\nof the lower-dimensional representation of data via encoders; and the mechanism\nof image restoration through autoencoders is natural to be understood by those\nexplanations. Compared to PCA and decision trees, the advantages of\n(generalized) autoencoders on dimensionality reduction and classification are\ndemonstrated, respectively. Convolutional neural networks and randomly weighted\nneural networks are also interpreted by this framework.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-665759e1f61e579fcf603eddd3bfe0d9"
+  }
+}

@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 500px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "description": "\"Pytorch is an organization that provides a deep learning framework used in the development of an autoencoder model.\"", "entity_type": "\"ORGANIZATION\"", "font": {"color": "#000000"}, "id": "\"PYTORCH\"", "label": "\"PYTORCH\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"The Author is the person proposing a deep autoencoder model and conducting experiments.\"", "entity_type": "\"PERSON\"", "font": {"color": "#000000"}, "id": "\"THE AUTHOR\"", "label": "\"THE AUTHOR\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"Autoencoder Model is a deep learning model proposed by the author and built on Pytorch.\"", "entity_type": "\"TECHNOLOGY\"", "font": {"color": "#000000"}, "id": "\"AUTOENCODER MODEL\"", "label": "\"AUTOENCODER MODEL\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"ELM is an organization or entity that has a model being compared with the proposed autoencoder model.\"", "entity_type": "\"ORGANIZATION\"", "font": {"color": "#000000"}, "id": "\"ELM\"", "label": "\"ELM\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"RELM is an organization or entity that has a model being compared with the proposed autoencoder model.\"", "entity_type": "\"ORGANIZATION\"", "font": {"color": "#000000"}, "id": "\"RELM\"", "label": "\"RELM\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"AE is an organization or entity that has a model being compared with the proposed autoencoder model.\"", "entity_type": "\"ORGANIZATION\"", "font": {"color": "#000000"}, "id": "\"AE\"", "label": "\"AE\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"SAE is an organization or entity that has a model being compared with the proposed autoencoder model.\"", "entity_type": "\"ORGANIZATION\"", "font": {"color": "#000000"}, "id": "\"SAE\"", "label": "\"SAE\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"DAE is an organization or entity that has a model being compared with the proposed autoencoder model.\"", "entity_type": "\"ORGANIZATION\"", "font": {"color": "#000000"}, "id": "\"DAE\"", "label": "\"DAE\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"Image Classification Task is the task that the proposed autoencoder model is designed to improve the accuracy of.\"", "entity_type": "\"EVENT\"", "font": {"color": "#000000"}, "id": "\"IMAGE CLASSIFICATION TASK\"", "label": "\"IMAGE CLASSIFICATION TASK\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"Experiment is the process of testing the proposed autoencoder model and comparing it with other models.\"", "entity_type": "\"EVENT\"", "font": {"color": "#000000"}, "id": "\"EXPERIMENT\"", "label": "\"EXPERIMENT\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"Sparse Auto-encoder is a type of autoencoder model that is similar to the starting point of the proposed model.\"", "entity_type": "\"TECHNOLOGY\"", "font": {"color": "#000000"}, "id": "\"SPARSE AUTO-ENCODER\"", "label": "\"SPARSE AUTO-ENCODER\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}, {"color": "#97c2fc", "description": "\"Deep Autoencoder Model is a type of autoencoder model proposed by the author, which introduces the idea of Pytorch and sparse networks.\"", "entity_type": "\"TECHNOLOGY\"", "font": {"color": "#000000"}, "id": "\"DEEP AUTOENCODER MODEL\"", "label": "\"DEEP AUTOENCODER MODEL\"", "shape": "dot", "size": 10, "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33"}]);
+                  edges = new vis.DataSet([{"description": "\"The Author uses Pytorch in the development of the autoencoder model.\"", "from": "\"PYTORCH\"", "keywords": "\"collaboration, deep learning\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"THE AUTHOR\"", "width": 16.0}, {"description": "\"Pytorch is the framework used in the development of the autoencoder model.\"", "from": "\"PYTORCH\"", "keywords": "\"deep learning, technology\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"AUTOENCODER MODEL\"", "width": 9.0}, {"description": "\"The Author compares the proposed autoencoder model with ELM\u0027s model.\"", "from": "\"THE AUTHOR\"", "keywords": "\"model comparison, experimentation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"ELM\"", "width": 12.0}, {"description": "\"The Author compares the proposed autoencoder model with RELM\u0027s model.\"", "from": "\"THE AUTHOR\"", "keywords": "\"model comparison, experimentation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"RELM\"", "width": 12.0}, {"description": "\"The Author compares the proposed autoencoder model with AE\u0027s model.\"", "from": "\"THE AUTHOR\"", "keywords": "\"model comparison, experimentation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"AE\"", "width": 12.0}, {"description": "\"The Author compares the proposed autoencoder model with SAE\u0027s model.\"", "from": "\"THE AUTHOR\"", "keywords": "\"model comparison, experimentation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"SAE\"", "width": 12.0}, {"description": "\"The Author compares the proposed autoencoder model with DAE\u0027s model.\"", "from": "\"THE AUTHOR\"", "keywords": "\"model comparison, experimentation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"DAE\"", "width": 12.0}, {"description": "\"The Author proposes and develops the autoencoder model.\"", "from": "\"THE AUTHOR\"", "keywords": "\"authorship, innovation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"AUTOENCODER MODEL\"", "width": 10.0}, {"description": "\"The Author designs the autoencoder model to improve the accuracy of the image classification task.\"", "from": "\"THE AUTHOR\"", "keywords": "\"task optimization, innovation\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"IMAGE CLASSIFICATION TASK\"", "width": 8.0}, {"description": "\"The Author conducts experiments to test the autoencoder model and compare it with other models.\"", "from": "\"THE AUTHOR\"", "keywords": "\"experimentation, model comparison\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"EXPERIMENT\"", "width": 8.0}, {"description": "\"The autoencoder model is similar to the sparse auto-encoder.\"", "from": "\"AUTOENCODER MODEL\"", "keywords": "\"technology, model similarity\"", "source_id": "chunk-2a86e5175d43ffd3c66dc7ba12e59d33", "to": "\"SPARSE AUTO-ENCODER\"", "width": 7.0}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

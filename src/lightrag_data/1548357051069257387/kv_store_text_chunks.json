@@ -1,0 +1,8 @@
+{
+  "chunk-2a86e5175d43ffd3c66dc7ba12e59d33": {
+    "tokens": 126,
+    "content": "This paper proposes a deep autoencoder model based on Pytorch. This algorithm\nintroduces the idea of Pytorch into the auto-encoder, and randomly clears the\ninput weights connected to the hidden layer neurons with a certain probability,\nso as to achieve the effect of sparse network, which is similar to the starting\npoint of the sparse auto-encoder. The new algorithm effectively solves the\nproblem of possible overfitting of the model and improves the accuracy of image\nclassification. Finally, the experiment is carried out, and the experimental\nresults are compared with ELM, RELM, AE, SAE, DAE.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2a86e5175d43ffd3c66dc7ba12e59d33"
+  }
+}

@@ -1,0 +1,1148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;MARCO RUDOLPH&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Marco Rudolph is one of the authors of the paper proposing Structuring Autoencoders and is affiliated with Leibniz Universität Hannover."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;BASTIAN WANDT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Bastian Wandt is a co-author of the paper on Structuring Autoencoders who contributes to the research associated with the proposal."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;BODO ROSENHAHN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Bodo Rosenhahn is a co-author of the research on Structuring Autoencoders and is affiliated with Leibniz Universität Hannover."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;LEIBNIZ UNIVERSITÄT HANNOVER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Leibniz Universität Hannover is the institution where the authors are affiliated, contributing to the field of neural networks and data structuring."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Structuring Autoencoders (SAE) is a method proposed in the paper that aims to enhance traditional autoencoders with weak supervision to create a structured latent space."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;MNIST&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"MNIST is a benchmark image dataset used in the experiments to demonstrate the applicability of Structuring Autoencoders."&lt;SEP&gt;"MNIST is a dataset used for training image processing systems, particularly in the context of recognizing handwritten digits."&lt;SEP&gt;"MNIST is a dataset utilized in the evaluation of reconstruction capabilities by the autoencoder, focusing on handwritten digits."&lt;SEP&gt;"MNIST is a well-known benchmark dataset consisting of handwritten digits, commonly used for training various image processing systems."&lt;SEP&gt;"MNIST is a well-known benchmark dataset of handwritten digits, commonly used to train and evaluate machine learning models, particularly in image classification."&lt;SEP&gt;"MNIST is a well-known dataset used in machine learning and computer vision for training various image processing systems."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6&lt;SEP&gt;chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;FASHION-MNIST&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Fashion-MNIST is a benchmark dataset that contains images of clothing items classified into various categories, used for training neural networks."&lt;SEP&gt;"Fashion-MNIST is a dataset introduced in 2017 that includes 60,000 training examples and 10,000 test examples of fashion items, divided into 10 classes."&lt;SEP&gt;"Fashion-MNIST is a dataset serving as a replacement for MNIST, consisting of images of clothing items to improve the relevance of image classification tasks."&lt;SEP&gt;"Fashion-MNIST is a dataset that extends the MNIST dataset by providing fashion products for training and evaluation purposes."&lt;SEP&gt;"Fashion-MNIST is a dataset used for benchmarking machine learning models, similar to MNIST but with fashion items instead of digits."&lt;SEP&gt;"Fashion-MNIST is a dataset used for image classification, focusing on fashion items, and is employed in various neural network experiments."&lt;SEP&gt;"Fashion-MNIST is another benchmark image dataset utilized in the paper to show the effectiveness of the proposed method."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6&lt;SEP&gt;chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;DEEPFASHION2&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"DeepFashion2 is a dataset mentioned in the experiments of the paper, contributing to the validation of the Structuring Autoencoders.'&lt;SEP&gt;"DeepFashion2 is a dataset specifically designed for fashion-related image classification and analysis, highlighting challenging classification scenarios."&lt;SEP&gt;"DeepFashion2 is a more complex fashion dataset that contains a variety of clothing items, utilized for advanced image processing and computer vision tasks."&lt;SEP&gt;"DeepFashion2 is a recently published dataset featuring a diverse array of clothing items, utilized in evaluating the performance of classification algorithms."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;3D HUMAN SHAPES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"3D Human Shapes is a dataset referenced in the paper to illustrate the application of the proposed method in categorizing human data."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;AUTOENCODERS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Autoencoders are a type of neural network used for unsupervised learning through the encoding and decoding of data."&lt;SEP&gt;"Autoencoders are a type of neural network used to learn efficient codings of unlabeled data for the purpose of dimensionality reduction and feature learning."&lt;SEP&gt;"Autoencoders are neural networks designed to learn efficient representations of data by encoding input into a latent space and then decoding it back to its original format."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;WEAK SUPERVISION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Weak Supervision is a method employed to enhance traditional autoencoders by providing minimal labeled data to guide the learning process."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;STRUCTURED LATENT SPACE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Structured Latent Space refers to a modified representation of data where semantic structures are organized meaningfully, facilitating better performance in various tasks."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;DATA STRUCTURING&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Data Structuring is the process of organizing data in a way that makes it easier to analyze, visualize, and interpret, improving its usability for different applications."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;CLASSIFICATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Classification refers to the process of categorizing data points into predefined classes, which can be improved with better representations generated by Structuring Autoencoders."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;RECONSTRUCTION ERROR&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Reconstruction Error is a metric that indicates the difference between the original input data and its reconstruction, used to evaluate the performance of autoencoders."&lt;SEP&gt;"Reconstruction Error measures the accuracy of the models in reconstructing input data from its compressed form, important in evaluating autoencoders."&lt;SEP&gt;"Reconstruction error is a measure of how well an autoencoder can reproduce its original input, reflecting the performance of the model in learning representations."&lt;SEP&gt;"Reconstruction error quantifies the difference between the original data and its reconstruction by an autoencoder, indicating model effectiveness."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;LATENT VARIABLES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Latent Variables are the compressed representations of input data in the latent space, capturing essential features and structures."&lt;SEP&gt;"Latent Variables are unobserved variables in a model that can explain the relationships between observed variables, often used in machine learning to reduce dimensionality."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;DISTANCE METRIC&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Distance Metric is a measure used to quantify how far apart two data points are in a given space, critical for organizing the learned representations in the latent space."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;HUMANPOSE DATABASE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"HumanPose database is mentioned as a benchmark data source for visualizing latent spaces and evaluating the performance of autoencoders."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;DATA POINTS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Data Points are individual pieces of data that represent observations or features in a dataset, crucial for training models like autoencoders."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;LABELING RECOMMENDATIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Labeling Recommendations involve suggestions for which unlabeled data points should be annotated to improve model training, guided by the findings from the Structuring Autoencoders research."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;MORPHING BETWEEN CLASSES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Morphing Between Classes refers to the ability to transform data points in the latent space from one class to another, demonstrating the flexibility of the structured representations."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;3D HUMAN POSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"3D Human Pose refers to the various positions and orientations of a human body in three-dimensional space, which is relevant to the experiments described in the paper."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;SEMANTIC STRUCTURE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Semantic Structure represents the deeper, meaningful relationships within data that the proposed autoencoder approach aims to uncover."</data>
+  <data key="d2">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</node>
+<node id="&quot;STRUCTURING AUTOENCODER (SAE)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Structuring AutoEncoder is a machine learning model designed to organize and structure data representations in a latent space, maintaining distances between classes."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;AUTOENCODER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"An Autoencoder is a type of artificial neural network used for unsupervised learning tasks, primarily for dimensionality reduction and feature extraction."&lt;SEP&gt;"An Autoencoder is a type of neural network used for unsupervised learning, which learns to encode data in a lower-dimensional space and reconstruct it."&lt;SEP&gt;"An autoencoder is a type of artificial neural network used to learn efficient representations of data, typically for dimensionality reduction or feature learning."&lt;SEP&gt;"An autoencoder is a type of neural network used to learn efficient representations of data, typically for the purpose of dimensionality reduction or feature learning."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;MULTIDIMENSIONAL SCALING (MDS)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Multidimensional Scaling is a statistical technique used for visualizing the level of similarity of individual datasets by reducing dimensionality while preserving distances."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;T-SNE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"t-SNE, or t-distributed Stochastic Neighbor Embedding, is a machine learning algorithm particularly suited for visualizing high-dimensional data by reducing its dimensionality."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;UNIFORM MANIFOLD APPROXIMATION AND PROJECTION (UMAP)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"UMAP is a dimension reduction technique that preserves more of the global structure of the data than t-SNE, making it useful for visualizing complex datasets."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;LOSS FUNCTION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A loss function is a method of evaluating how well a specific algorithm models the given data, crucial for guiding the learning process in machine learning."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;STRUCTURAL LOSS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Structural loss is a type of loss calculation used in the training of models like the SAE, which incorporates the structure of data as a factor in performance evaluation."&lt;SEP&gt;"Structural loss refers to a type of loss function used to optimize model performance by imposing additional constraints during training."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;SPARSELY LABELED DATA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Sparsely labeled data refers to datasets where only a small fraction of the input data is labeled, presenting challenges for traditional machine learning techniques."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;3D MESHES OF HUMAN BODY SHAPES&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"A specific dataset consisting of three-dimensional representations of human body shapes, used in machine learning applications to study shape analysis and classification."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;LABELING EFFICIENCY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Labeling efficiency refers to the effectiveness and economy with which data points in a dataset can be labeled, which is important in reducing time and cost in data preparation."</data>
+  <data key="d2">chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;TRAINING SAMPLES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Training Samples refer to the individual instances of data used to train machine learning models, essential for learning patterns and developing predictive capabilities."&lt;SEP&gt;"Training samples are the data points used to train a machine learning model, crucial for its learning process and subsequent performance evaluation."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</node>
+<node id="&quot;HUMANPOSE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"HumanPose is likely a dataset or framework relevant to the study of human body shapes and poses in the context of machine learning and computer vision experiments."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;ADVERSARIAL AUTOENCODERS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Adversarial Autoencoders represent a class of techniques in machine learning that combine autoencoders with adversarial training to improve latent space structures."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;MULTIDIMENSIONAL SCALING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Multidimensional Scaling is a statistical technique used to visualize the level of similarity of individual cases of a dataset."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;ENCODER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Encoder refers to the model component that transforms input data into a latent space representation."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;LATENT SPACE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Latent Space is a representation of compressed data from which original input can be reconstructed, used primarily in the context of autoencoders."&lt;SEP&gt;"Latent Space is a representation of compressed data in machine learning, which helps to organize and structure data for effective processing."&lt;SEP&gt;"Latent Space represents a compressed representation of the input data in which hidden structures can be analyzed and clustered more effectively."&lt;SEP&gt;"Latent space is a representation learned by neural networks, where input data is transformed to capture relevant features and structures."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;CONVOLUTIONAL AUTOENCODERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Convolutional Autoencoders are a variant of autoencoders that leverage convolutional layers to learn spatial hierarchies for image data."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;LOSS FUNCTIONS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Loss Functions are mathematical functions used to measure how well a machine learning model performs, guiding the optimization process during training."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;MEAN SQUARED ERROR (MSE)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Mean Squared Error (MSE) is a commonly used loss function that calculates the average of the squares of errors between predicted and actual values."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;DISTANCE MATRIX&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Distance Matrix is a table that displays the distances between a set of points in a multi-dimensional space, often used in clustering and MDS applications."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;PROJECTION MATRIX&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Projection Matrix is used to project data into a lower-dimensional space, allowing for efficient analysis and visualization of patterns."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;SINGULAR VALUE DECOMPOSITION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Singular Value Decomposition is a mathematical method used to factorize a matrix into its constituent elements, aiding in data dimensionality reduction."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;STRESS MINIMIZATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Stress Minimization is a process used in MDS to reduce the discrepancy between the distances in the original space and the low-dimensional representation."</data>
+  <data key="d2">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;3D BODY SHAPE DATASET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"3D Body Shape Dataset is likely a collection of data points focusing on the shapes of human bodies in three dimensions, used for modeling and analysis in machine learning."&lt;SEP&gt;"The 3D Body Shape Dataset consists of 3D models of human shapes, used for analysis in computer graphics and body modeling applications."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</node>
+<node id="&quot;3D HUMANPOSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"3D HumanPose is a data-driven event that serves as a dataset for training autoencoders, particularly in body shape and pose reconstruction."&lt;SEP&gt;"3D HumanPose is a dataset containing 3D representations of human poses, utilized in evaluating autoencoder performance and classification accuracy."&lt;SEP&gt;"3D HumanPose is a dataset created using SMPL to represent human models in different poses, with positions of 6890 vertices for training purposes."&lt;SEP&gt;"3D HumanPose refers to a dataset specifically designed for analyzing and evaluating poses in 3D space, emphasizing human body shape recognition."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;SUPPORT VECTOR MACHINES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Support Vector Machines are supervised learning models used for classification and regression analysis in machine learning."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;CONVERGENCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Convergence refers to the process of reaching a consistent state during the training of machine learning models, particularly relevant for algorithms like autoencoders."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;EPOCH&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"An epoch refers to one complete pass through the entire training dataset during the training phase of a machine learning model."&lt;SEP&gt;"Epoch denotes one complete cycle through the training dataset during the training of a machine learning model, critical for measuring performance."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;DATA AUGMENTATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Data Augmentation is a technique used to increase the size and diversity of training datasets by applying transformations to the original data."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;TRAINING SET&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The Training Set is the subset of data used to train a machine learning model, crucial for teaching the model its tasks."&lt;SEP&gt;"The training set is a collection of labeled data used to train classification models for better accuracy and performance."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;TEST SET&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The Test Set is a separate data subset used to evaluate the performance of a trained machine learning model, ensuring its effectiveness on unseen data."&lt;SEP&gt;"The test set is an independent dataset used to evaluate the effectiveness of a trained model, ensuring that it generalizes well to unseen data."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;IMAGE DATA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Image Data refers to visual information represented in the form of images, commonly used in tasks within computer vision and machine learning."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;VECTOR DATA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Vector Data represents data points in a multi-dimensional space, used in machine learning for tasks such as classification and clustering."</data>
+  <data key="d2">chunk-01919964963f385f6da15bcda957ea71</data>
+</node>
+<node id="&quot;SAE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"SAE (Structured Autoencoder) is a method developed to enhance traditional autoencoders by structuring the latent space according to class labels."&lt;SEP&gt;"SAE, or Structuring Autoencoders, is a proposed method that improves data structuring, classification accuracy, and interpretable decision confidence in machine learning."&lt;SEP&gt;"SAE, or Structuring Autoencoders, is a technology used for classification tasks that combines a reliable decision confidence mechanism with a smoothing effect on class separation."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;SVM&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"SVM, or Support Vector Machine, is a classification technique applied on the latent space to enhance accuracy compared to traditional neural networks."&lt;SEP&gt;"SVM, or Support Vector Machine, is a traditional classifier used alongside SAE for predicting class membership probabilities and classifying data samples."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;STANDARD AUTOENCODERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Standard Autoencoders are traditional neural network architectures used for unsupervised learning that may struggle to reveal hidden data structures."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;VARIATIONAL AUTOENCODERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Variational Autoencoders are advanced versions of autoencoders designed to learn complex distributions and effectively model latent spaces."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;NEURONS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Neurons in this context refer to the artificial neurons used in neural networks, specifically with layers of 2048 and 256 in the described architecture."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;LINEAR CLASSIFIER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A Linear Classifier is a simple model that makes predictions based on a linear predictor function combining a set of weights."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;ADVERSARIAL AUTOENCODER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Adversarial Autoencoder is a type of autoencoder that incorporates adversarial training to produce better data representations and performance."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;CNN&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"CNN, or Convolutional Neural Network, is a deep learning algorithm primarily used for processing structured grid data such as images."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;DECISION CONFIDENCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Decision Confidence refers to the certainty with which a model predicts a class label, distinguished by the quality of predictions made."</data>
+  <data key="d2">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</node>
+<node id="&quot;GUIDED LABELING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Guided Labeling is a process within classification tasks to efficiently discover important samples with high uncertainty in the test set through intelligent selection."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;THE PICTURE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The picture refers to an image that is being analyzed to determine if it depicts a skirt or shorts, forming the basis for a classification task."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;SCORES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Scores are numerical values derived from classification models, indicating the confidence in classifying items such as skirts or shorts."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;PREDICTION SCORES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Prediction scores are values generated by classifiers which reflect the probabilities of an input belonging to a certain class."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;CLASS MEMBERSHIP PROBABILITY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Class membership probability refers to the likelihood that a given sample belongs to a specific category, as predicted by a classifier."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;RECONSTRUCTION LOSS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Reconstruction loss measures how well a model is able to recreate its input data, guiding improvements in training."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;DATASET&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"A dataset is a structured collection of data, commonly used for training and evaluating machine learning models."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;CLASSIFICATION ERROR&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Classification error indicates the percentage of misclassifications made by a model, reflecting its accuracy or performance in predicting classes."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;CRITICAL SAMPLES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Critical samples are specific data points identified as particularly important for improving model accuracy during the training process."</data>
+  <data key="d2">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</node>
+<node id="&quot;MARKOV CHAIN NEURAL NETWORKS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Markov Chain Neural Networks are advanced neural network architectures that may be combined with the proposed SAE to enhance learning and prediction tasks."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;NUMERICAL LOW RECONSTRUCTION ERROR&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Numerical low reconstruction error is a measure indicating the quality of output from an autoencoder, demonstrating effective learning."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;DEFORMATION VECTOR&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The deformation vector refers to a method for transitioning between classes in the latent space of an autoencoder, aiding in visual morphing."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;TRAINING DATA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Training data refers to the dataset used to train machine learning models, essential in shaping model accuracy and performance."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;CLASS SEPARATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Class separation is the process implemented in machine learning where distinct categories in the data are differentiated in the model's learned representation."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;EXAMPLE RECONSTRUCTIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Example reconstructions demonstrate the outputs generated by an autoencoder when processing various datasets, showcasing its capabilities."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;TRAINING COST&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Training cost refers to the resources and time invested in training machine learning models, highlighting the importance of efficient methods."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;SUBJECTIVE EVALUATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Subjective evaluation involves assessing the quality and performance of outputs based on personal judgment rather than numerical metrics."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;GUIDED LABELING APPROACH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The guided labeling approach involves using distances in latent space to identify unlabeled data points with high classification uncertainty, assisting in efficient data labeling."</data>
+  <data key="d2">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</node>
+<node id="&quot;A. CARREIRA-PERPIÑAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A. Carreira-Perpiñan is an author associated with research in computer vision and pattern recognition, contributing to the IEEE Conference."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;R. RAZIPERCHIKOLAEI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"R. Raziperchikolaei is a co-author contributing to the same research area as Carreira-Perpiñan, specifically in the field of computer vision."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The IEEE Conference on Computer Vision and Pattern Recognition is a prominent event focused on advancements and research in computer vision, where significant findings are presented."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;INTERNATIONAL CONFERENCE ON MACHINE LEARNING (ICML)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The International Conference on Machine Learning is an influential event in the field of machine learning where researchers present their latest work, including denoising autoencoders and domain adaptation."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;ACM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"ACM, the Association for Computing Machinery, is an organization that publishes research and supports professionals in computing and information technology."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;CORR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CoRR, Computation and Research Repository, is a repository where researchers publish papers and preprints, indicating its significance in the dissemination of research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;M. CHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. Chen is an author cited in relation to marginalized denoising autoencoders, contributing to the research presented at the International Conference on Machine Learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Z. XU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Z. Xu is a co-author associated with M. Chen on the work regarding domain adaptation and denoising autoencoders."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;K. WEINBERGER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"K. Weinberger is a contributing author to the research on marginalized denoising autoencoders, indicating a focus on advancements in machine learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;F. SHA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"F. Sha is a co-author involved in the study related to denoising autoencoders for domain adaptation, contributing to the field of machine learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Y. CHEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. Chen is an author noted for work on subspace clustering using low-rank constrained autoencoders, contributing to advancements in clustering methodologies."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;L. ZHANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L. Zhang is a co-author of the work concerning subspace clustering, showcasing collaboration in research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Z. YI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Z. Yi is associated with subspace clustering research, highlighting contributions to data analysis techniques in machine learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;C. DONAHUE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"C. Donahue is an author involved in the semantically decomposing latent spaces for generative adversarial networks, indicating significant research contributions."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;A. BALSUBRAMANI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A. Balsubramani is a co-author associated with research on generative adversarial networks, emphasizing the exploration of latent space decomposition."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. MCAULEY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. McAuley is a contributing author in the study of latent space decomposition in the context of generative models."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Z. C. LIPTON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Z. C. Lipton collaborates on research regarding generative adversarial networks, indicating involvement in cutting-edge machine learning research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Y. GE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. Ge is associated with research on DeepFashion2, a benchmark for clothing image analysis in various tasks."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;R. ZHANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"R. Zhang co-authors the DeepFashion2 benchmark research, contributing to the clothing image tasks."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;L. WU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L. Wu is a co-author of the DeepFashion2 research, indicating active engagement in computer vision challenges."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;X. WANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"X. Wang is involved in DeepFashion2 research, emphasizing collaboration in fashion image analysis."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;X. TANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"X. Tang is also a contributor to the research oriented towards clothing images through the DeepFashion2 benchmark."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;P. LUO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"P. Luo co-authors the work on DeepFashion2, demonstrating a focus on machine learning applications in fashion."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;S. GRASSHOF&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"S. Graßhof is an author noted for research on expressions in relation to apathy, underscoring the intersection of psychology and computer vision."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;H. ACKERMANN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"H. Ackermann contributes to the study of expressions related to apathy, indicating research in emotional recognition."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;S. S. BRANDT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"S. S. Brandt collaborates on research examining the roots of expressions in human behavior."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. OSTERMANN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. Ostermann is involved in the research focusing on expressions and social implications linked to apathy."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;G. E. HINTON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"G. E. Hinton is a renowned researcher in neural networks and data dimensionality reduction, contributing significantly to the field of deep learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;R. R. SALAKHUTDINOV&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"R. R. Salakhutdinov collaborates with Hinton on research related to reducing data dimensionality, indicating a strong partnership in AI research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;D. P. KINGMA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"D. P. Kingma is an author recognized for his work on variational autoencoders, a key concept in deep generative models."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;M. WELLING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. Welling is a co-author of the auto-encoding variational bayes paper, contributing to advancements in deep learning methodologies."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. B. KRUSKAL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. B. Kruskal is noted for work in multidimensional scaling, contributing theoretical advancements to statistical analysis."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;T. D. KULKARNI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"T. D. Kulkarni is an author involved in research on deep convolutional inverse graphics networks, highlighting advancements in graphics processing."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;W. F. WHITNEY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"W. F. Whitney collaborates on the deep convolutional graphics network research, showcasing innovation in computer vision."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;P. KOHLI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"P. Kohli is a co-author contributing to deep convolutional network research, indicating expertise in advanced machine learning techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. TENENBAUM&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. Tenenbaum is a collaborator on deep convolutional graphics networks, indicating engagement in interdisciplinary research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Y. LECUN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. LeCun is a pioneer in neural network design and generalization, significantly impacting modern AI research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;F. LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"F. Li co-authors research on discriminative boosting for image clustering, indicating contributions to image analysis methodologies."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;H. QIAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"H. Qiao is involved in research focusing on image clustering with autoencoders, showcasing advancements in computer vision."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;B. ZHANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"B. Zhang collaborates on the study regarding discriminative image clustering, indicating engagement with clustering techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;H. LIU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"H. Liu contributes to research on infinite ensemble methods for image clustering, emphasizing continuous innovation."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;M. SHAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. Shao is a co-author involved in methods for image clustering, indicating expertise in data classification techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;S. LI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"S. Li is associated with research on ensemble techniques for clustering, contributing to the design of advanced algorithms."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;Y. FU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. Fu collaborates on the infinite ensemble research in image clustering, showcasing dedication to enhancing machine learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;M. LOPER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. Loper is recognized for contributions to the SMPL model, impacting graphics and animation representation techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;N. MAHMOOD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"N. Mahmood co-authors the research on the SMPL model, highlighting collaboration in shape modeling."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. ROMERO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. Romero is involved in developing the SMPL model for graphics representation, indicating active engagement in visual computing."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;G. PONS-MOLL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"G. Pons-Moll collaborates on the SMPL model research, contributing to the intersection of graphics and machine learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;M. J. BLACK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. J. Black is a co-author associated with the SMPL model work, indicating contributions to human shape modeling research."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;A. MAKHZANI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A. Makhzani is an author recognized for research on adversarial autoencoders, contributing to generative modeling techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. SHLENS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. Shlens is a collaborator on adversarial autoencoder research, indicating contributions to innovative machine learning techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;N. JAITLY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"N. Jaitly works on adversarial autoencoders, showcasing research into novel data generation methods."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;I. GOODFELLOW&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"I. Goodfellow is known for pioneering the concept of generative adversarial networks, significantly impacting generative modeling."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;L. MCINNES&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L. McInnes contributes to the development and publication of UMAP, enhancing dimensionality reduction techniques."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. HEALY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. Healy collaborates in the UMAP research initiative, furthering advancements in data visualization and dimensionality reduction."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;A. ROBERTS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A. Roberts co-authors the hierarchical latent vector model work, demonstrating contributions to long-term structure learning."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</node>
+<node id="&quot;J. ENGEL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"J. Engel collaborates on the hierarchical latent vector model research, focusing on music and structure modeling."&lt;SEP&gt;"J. Engel is a researcher or author involved in the study of hierarchical latent vector models for music structure."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60&lt;SEP&gt;chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;C. RAFFEL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"C. Raffel is a researcher or author contributing to the same study on music structure."&lt;SEP&gt;"C. Raffel is involved in developing hierarchical models for learning in music, indicating a focus on data-driven modeling."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60&lt;SEP&gt;chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;C. HAWTHORNE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"C. Hawthorne cooperates in the hierarchical latent vector model research, contributing to advancements in music structure analysis."&lt;SEP&gt;"C. Hawthorne is a researcher associated with the hierarchical latent vector model for music."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60&lt;SEP&gt;chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;D. ECK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"D. Eck is a co-author involved in hierarchical models for learning structure in music, showcasing expertise in machine learning applications."&lt;SEP&gt;"D. Eck is a researcher involved in the study of long-term structure in music, collaborating with other authors."</data>
+  <data key="d2">chunk-7f621f55aaa10556978c3ae269d56c60&lt;SEP&gt;chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;PROCEEDINGS OF THE 35TH INTERNATIONAL CONFERENCE ON MACHINE LEARNING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This event refers to a significant academic conference where research related to machine learning is presented and discussed."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;STOCKHOLMSM¨ASSAN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Stockholmsm¨assan is the venue for the conference mentioned, located in Stockholm, Sweden."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;MACHINE LEARNING RESEARCH&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Machine Learning Research is an academic publisher responsible for publishing the proceedings of the conference."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;P. H. SCHÖNEMANN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"P. H. Schönemann is an author known for publishing work related to the orthogonal Procrustes problem in psychometrics."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;K. SIMONYAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"K. Simonyan is a researcher who contributed to the study of very deep convolutional networks for large-scale image recognition."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;A. ZISSERMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A. Zisserman is a co-author with K. Simonyan on research related to deep convolutional networks."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;C. SONG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"C. Song is a researcher associated with auto-encoder based data clustering in computer vision applications."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;F. LIU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"F. Liu is a co-author of the study on data clustering using auto-encoders."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;Y. HUANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. Huang is a collaborator in the auto-encoder based clustering research."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;L. WANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L. Wang is an author contributing to the research on data clustering with auto-encoders."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;T. TAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"T. Tan is involved in the research on auto-encoder based data clustering, contributing as a co-author."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;L. VAN DER MAATEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"L. van der Maaten is a researcher known for contributions to t-SNE algorithms and visualizing high-dimensional data."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;G. HINTON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"G. Hinton is a co-author with L. van der Maaten in work on visualizing high-dimensional data using t-SNE."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;V. N. VAPNIK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"V. N. Vapnik is a notable figure in pattern recognition theory, known for his significant contributions."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;A. Y. CHERVONENKIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A. Y. Chervonenkis is a co-author with V. N. Vapnik on the theory of pattern recognition."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;P. VINCENT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"P. Vincent is a researcher who has published studies on stacked denoising autoencoders with significant implications in deep learning."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;H. LAROCHELLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"H. Larochelle is a co-author of P. Vincent's research on learning useful representations in deep networks."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;I. LAJOIE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"I. Lajoie is involved in the research on stacked denoising autoencoders alongside P. Vincent and colleagues."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;Y. BENGIO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. Bengio is a prominent researcher in machine learning, co-authoring studies on stacked denoising autoencoders."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;P.-A. MANZAGOL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"P.-A. Manzagol is a contributor to the research on learning representations in deep networks with a local denoising criterion."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;B. WANDT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"B. Wandt is a researcher who studied adversarial reprojection networks for 3D human pose estimation, contributing to weakly supervised training methods."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;B. ROSENHAHN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"B. Rosenhahn is a co-author with B. Wandt in research focused on 3D human pose estimation and adversarial networks."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;H. XIAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"H. Xiao is associated with the development of the Fashion-MNIST dataset aimed at benchmarking machine learning algorithms."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;K. RASUL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"K. Rasul is a contributor to the Fashion-MNIST project, which serves as a novel image dataset for benchmarking."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;R. VOLLGRAF&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"R. Vollgraf is involved in the Fashion-MNIST project, contributing to the creation of the dataset for machine learning."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;M. Y. YANG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"M. Y. Yang is a researcher focused on video event recognition and anomaly detection using Gaussian process models."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;W. LIAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"W. Liao collaborates in research on video event recognition and anomaly detection techniques."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;Y. CAO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Y. Cao is involved in the study on detecting video events and anomalies, working with M. Y. Yang and team."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;PHOTOGRAMMETRIC ENGINEERING &amp; REMOTE SENSING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This event refers to the journal where research related to video event recognition and processing is published."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;LAWRENCE ERLBAUM ASSOCIATES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Lawrence Erlbaum Associates is a publisher known for its contributions to literature in psychology and machine learning."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;HILLSDALE, NEW JERSEY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Hillsdale, New Jersey is a location that is associated with the publications by Lawrence Erlbaum Associates."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<node id="&quot;LONDON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"London is another location associated with the publications of Lawrence Erlbaum Associates."</data>
+  <data key="d2">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</node>
+<edge source="&quot;MARCO RUDOLPH&quot;" target="&quot;LEIBNIZ UNIVERSITÄT HANNOVER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Marco Rudolph is affiliated with Leibniz Universität Hannover, the institution behind the research on Structuring Autoencoders."</data>
+  <data key="d5">"affiliation, research institution"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;MARCO RUDOLPH&quot;" target="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Marco Rudolph is one of the authors proposing the Structuring Autoencoders method detailing its functionality and benefits."</data>
+  <data key="d5">"research proposal, author"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;BASTIAN WANDT&quot;" target="&quot;LEIBNIZ UNIVERSITÄT HANNOVER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Bastian Wandt is affiliated with Leibniz Universität Hannover and collaborates on the research regarding Structuring Autoencoders."</data>
+  <data key="d5">"affiliation, research institution"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;BASTIAN WANDT&quot;" target="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bastian Wandt contributes as a co-author to the proposal and validation of Structuring Autoencoders in the paper."</data>
+  <data key="d5">"research proposal, author"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;BODO ROSENHAHN&quot;" target="&quot;LEIBNIZ UNIVERSITÄT HANNOVER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Bodo Rosenhahn is associated with Leibniz Universität Hannover, contributing to the research on Structuring Autoencoders."</data>
+  <data key="d5">"affiliation, research institution"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;BODO ROSENHAHN&quot;" target="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bodo Rosenhahn also co-authors the proposal detailing the Structuring Autoencoders initiative."</data>
+  <data key="d5">"research proposal, author"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;" target="&quot;MNIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Structuring Autoencoders (SAE) is applied to the MNIST dataset to demonstrate its effectiveness in data representation."</data>
+  <data key="d5">"application, data representation"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;" target="&quot;FASHION-MNIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The methodology of Structuring Autoencoders (SAE) is tested on the Fashion-MNIST dataset, showing its general applicability."</data>
+  <data key="d5">"application, data validation"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;" target="&quot;DEEPFASHION2&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeepFashion2 dataset is used in exploring the applicability of Structuring Autoencoders in fashion-related data tasks."</data>
+  <data key="d5">"application, data validation"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;STRUCTURING AUTOENCODERS (SAE)&quot;" target="&quot;3D HUMAN SHAPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"3D Human Shapes dataset illustrates the utility of Structuring Autoencoders in analyzing complex human shape data."</data>
+  <data key="d5">"application, data analysis"</data>
+  <data key="d6">chunk-fdfce24a4a26f0d1ba1c968c854375b8</data>
+</edge>
+<edge source="&quot;MNIST&quot;" target="&quot;SAE&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"SAE has been tested and trained using the MNIST dataset to evaluate its performance in recognizing handwritten digits."&lt;SEP&gt;"The SAE shows its effectiveness in reconstructing data from the MNIST dataset, demonstrating its application in digit recognition tasks."&lt;SEP&gt;"The Structuring AutoEncoder employs the MNIST dataset during experiments to validate the model's ability to structure data based on given classes."</data>
+  <data key="d5">"dataset testing, performance evaluation"&lt;SEP&gt;"method application, reconstruction"&lt;SEP&gt;"validation, performance"</data>
+  <data key="d6">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</edge>
+<edge source="&quot;MNIST&quot;" target="&quot;HUMANPOSE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"HumanPose is likely being compared with MNIST in experiments to evaluate how well each dataset performs under various machine learning models."</data>
+  <data key="d5">"comparison, benchmarking"</data>
+  <data key="d6">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</edge>
+<edge source="&quot;MNIST&quot;" target="&quot;FASHION-MNIST&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Both MNIST and Fashion-MNIST are benchmark datasets utilized for training and evaluating machine learning models, specifically in image processing tasks."&lt;SEP&gt;"Both MNIST and Fashion-MNIST are datasets used for benchmarking and comparisons in model performance within machine learning."."</data>
+  <data key="d5">"benchmark datasets, image processing"&lt;SEP&gt;"benchmarking, dataset comparison"</data>
+  <data key="d6">chunk-01919964963f385f6da15bcda957ea71&lt;SEP&gt;chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</edge>
+<edge source="&quot;FASHION-MNIST&quot;" target="&quot;SAE&quot;">
+  <data key="d3">33.0</data>
+  <data key="d4">"Fashion-MNIST dataset serves as a benchmark for testing the effectiveness of SAE in achieving better classification outcomes."&lt;SEP&gt;"SAE has been adapted and tested on the Fashion-MNIST dataset to extend its application to clothing item recognition tasks."&lt;SEP&gt;"Similar to MNIST, SAE is applied to Fashion-MNIST to assess its performance in reconstructing fashion-related images."&lt;SEP&gt;"The Structuring AutoEncoder is applied to the Fashion-MNIST dataset, demonstrating efficacious performance in classification tasks."</data>
+  <data key="d5">"application extension, dataset testing"&lt;SEP&gt;"application, performance"&lt;SEP&gt;"dataset evaluation, performance improvement"&lt;SEP&gt;"method application, reconstruction"</data>
+  <data key="d6">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</edge>
+<edge source="&quot;FASHION-MNIST&quot;" target="&quot;DEEPFASHION2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Fashion-MNIST provides a simpler challenge compared to DeepFashion2, which is used for more complex image recognition tasks."</data>
+  <data key="d5">"dataset complexity, computer vision"</data>
+  <data key="d6">chunk-01919964963f385f6da15bcda957ea71</data>
+</edge>
+<edge source="&quot;DEEPFASHION2&quot;" target="&quot;SAE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"DeepFashion2 dataset is utilized to highlight the strengths of SAE in providing meaningful prediction scores and improving classification tasks."&lt;SEP&gt;"The Structuring AutoEncoder outperforms other classifiers when applied to the DeepFashion2 dataset, showing its effectiveness in real-world applications."</data>
+  <data key="d5">"application, performance"&lt;SEP&gt;"classification effectiveness, dataset challenge"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1&lt;SEP&gt;chunk-8540801279f57be4b29900eb965bc9b7</data>
+</edge>
+<edge source="&quot;DEEPFASHION2&quot;" target="&quot;3D HUMANPOSE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"3D HumanPose dataset provides data in vectorial form similar to the challenges posed by DeepFashion2, used for advanced modeling tasks."</data>
+  <data key="d5">"data variety, modeling challenges"</data>
+  <data key="d6">chunk-01919964963f385f6da15bcda957ea71</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;LATENT SPACE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Latent Space is a critical component of Autoencoders, facilitating the compression and reconstruction of input data."."</data>
+  <data key="d5">"data representation, functionality"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;AUTOENCODER&quot;" target="&quot;SUPPORT VECTOR MACHINES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Autoencoders can be used to preprocess data for Support Vector Machines, enhancing the classification task using lower-dimensional representations."</data>
+  <data key="d5">"data preprocessing, machine learning"</data>
+  <data key="d6">chunk-01919964963f385f6da15bcda957ea71</data>
+</edge>
+<edge source="&quot;ADVERSARIAL AUTOENCODERS&quot;" target="&quot;MULTIDIMENSIONAL SCALING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Adversarial Autoencoders may utilize Multidimensional Scaling to arrange data points in an effective Latent Space representation."</data>
+  <data key="d5">"data visualization, technique integration"</data>
+  <data key="d6">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</edge>
+<edge source="&quot;ENCODER&quot;" target="&quot;LATENT SPACE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Encoder is responsible for projecting data into the Latent Space, facilitating the representation of data in a compressed format."</data>
+  <data key="d5">"data transformation, representation"</data>
+  <data key="d6">chunk-e09194c38e45e88e7b2b1adf9be5a7c6</data>
+</edge>
+<edge source="&quot;LATENT SPACE&quot;" target="&quot;NEURONS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Neurons are employed in defining the architecture of the network that processes data in the Latent Space."."</data>
+  <data key="d5">"data processing, network architecture"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;LATENT SPACE&quot;" target="&quot;LINEAR CLASSIFIER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Linear Classifier models leverage the structured representations in the Latent Space for improved classification accuracy."."</data>
+  <data key="d5">"classification, accuracy enhancement"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;3D HUMANPOSE&quot;" target="&quot;SAE&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"3D HumanPose dataset is evaluated using SAE methodologies, demonstrating the effectiveness of SAE in handling complex data structures."&lt;SEP&gt;"SAE is adapted for the 3D HumanPose dataset to recognize complex human poses through effective classification methods."&lt;SEP&gt;"The SAE method is utilized for reconstructing 3D HumanPose data, indicating its direct role in improving pose-related tasks."</data>
+  <data key="d5">"data evaluation, technological application"&lt;SEP&gt;"method application, pose estimation"&lt;SEP&gt;"pose recognition, dataset application"</data>
+  <data key="d6">chunk-25e488b3f3a1bc8c8ba9a749034b171e&lt;SEP&gt;chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;SVM&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"SAE provides a reliable decision confidence mechanism that enhances the performance of the SVM classifier in classification tasks."&lt;SEP&gt;"SAE utilizes SVM for classification on the latent space, which results in improved accuracy over traditional approaches."</data>
+  <data key="d5">"model enhancement, classification improvement"&lt;SEP&gt;"technology enhancement, classification accuracy"</data>
+  <data key="d6">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a&lt;SEP&gt;chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;STANDARD AUTOENCODERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SAE offers improvements over Standard Autoencoders by providing clearer structure and better data separation in analysis."</data>
+  <data key="d5">"comparison, methodological advancement"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;VARIATIONAL AUTOENCODERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"SAE is assessed against Variational Autoencoders to showcase its advantages in structuring data and achieving clarity in classification."</data>
+  <data key="d5">"methodological comparison, structural clarity"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;ADVERSARIAL AUTOENCODER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Adversarial Autoencoder is compared to SAE to showcase the latter's enhanced performance in classification tasks."."</data>
+  <data key="d5">"methodological comparison, performance assessment"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;DECISION CONFIDENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"SAE aims to enhance Decision Confidence by providing interpretable and reliable prediction scores."."</data>
+  <data key="d5">"model reliability, confidence metrics"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;GUIDED LABELING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Guided Labeling utilizes the reliability of decisions made by the SAE to efficiently label important sample points, thereby improving training efficiency."</data>
+  <data key="d5">"training efficiency, data labeling"</data>
+  <data key="d6">chunk-3ae2925ca0a8a4c4599df3dd5cbb8f3a</data>
+</edge>
+<edge source="&quot;SAE&quot;" target="&quot;MARKOV CHAIN NEURAL NETWORKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The SAE may be improved by integrating Markov Chain Neural Networks to enhance classification and learning efficiency."</data>
+  <data key="d5">"method enhancement, advanced techniques"</data>
+  <data key="d6">chunk-25e488b3f3a1bc8c8ba9a749034b171e</data>
+</edge>
+<edge source="&quot;STANDARD AUTOENCODERS&quot;" target="&quot;CNN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"CNN serves as a reference model compared to Standard Autoencoders in various classification scenarios."."</data>
+  <data key="d5">"model comparison, classification tasks"</data>
+  <data key="d6">chunk-a054a3e37bc1fcd86cb32715447f79a1</data>
+</edge>
+<edge source="&quot;A. CARREIRA-PERPIÑAN&quot;" target="&quot;IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"A. Carreira-Perpiñan is associated with the IEEE Conference on CVPR as an author, contributing to the discussions and findings presented at the event."</data>
+  <data key="d5">"research contribution, event participation"</data>
+  <data key="d6">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</edge>
+<edge source="&quot;A. CARREIRA-PERPIÑAN&quot;" target="&quot;INTERNATIONAL CONFERENCE ON MACHINE LEARNING (ICML)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"A. Carreira-Perpiñan's research extends to presentations at ICML, indicating active participation in the machine learning community."</data>
+  <data key="d5">"research contribution, event participation"</data>
+  <data key="d6">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</edge>
+<edge source="&quot;R. RAZIPERCHIKOLAEI&quot;" target="&quot;IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"R. Raziperchikolaei co-authors research presented at the IEEE Conference on CVPR, indicating their involvement in significant advancements in computer vision."</data>
+  <data key="d5">"collaboration, research contribution"</data>
+  <data key="d6">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</edge>
+<edge source="&quot;R. RAZIPERCHIKOLAEI&quot;" target="&quot;INTERNATIONAL CONFERENCE ON MACHINE LEARNING (ICML)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"R. Raziperchikolaei is also involved in research discussed at ICML, contributing to the evolution of machine learning techniques."</data>
+  <data key="d5">"collaboration, research contribution"</data>
+  <data key="d6">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</edge>
+<edge source="&quot;IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)&quot;" target="&quot;ACM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"ACM publishes substantial research findings from events like IEEE CVPR, emphasizing its role in the academic community."</data>
+  <data key="d5">"publishing, knowledge dissemination"</data>
+  <data key="d6">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</edge>
+<edge source="&quot;INTERNATIONAL CONFERENCE ON MACHINE LEARNING (ICML)&quot;" target="&quot;CORR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"CoRR hosts various research papers, including presentations made at ICML, showcasing the exchange of knowledge in machine learning."</data>
+  <data key="d5">"repository, knowledge exchange"</data>
+  <data key="d6">chunk-7f621f55aaa10556978c3ae269d56c60</data>
+</edge>
+<edge source="&quot;J. ENGEL&quot;" target="&quot;C. RAFFEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"J. Engel and C. Raffel are co-authors working together on the hierarchical latent vector model for music structure."</data>
+  <data key="d5">"collaboration, co-authorship"</data>
+  <data key="d6">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</edge>
+<edge source="&quot;J. ENGEL&quot;" target="&quot;C. HAWTHORNE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"J. Engel and C. Hawthorne are co-authors in the study of music structure, indicating a collaborative effort."</data>
+  <data key="d5">"collaboration, co-authorship"</data>
+  <data key="d6">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</edge>
+<edge source="&quot;C. RAFFEL&quot;" target="&quot;D. ECK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"C. Raffel and D. Eck are co-authors, contributing to the hierarchical latent vector model for music structure."</data>
+  <data key="d5">"collaboration, co-authorship"</data>
+  <data key="d6">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</edge>
+<edge source="&quot;C. HAWTHORNE&quot;" target="&quot;D. ECK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"D. Eck and C. Hawthorne are part of the same research team focusing on hierarchical latent vector models in music."</data>
+  <data key="d5">"collaboration, co-authorship"</data>
+  <data key="d6">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</edge>
+<edge source="&quot;PROCEEDINGS OF THE 35TH INTERNATIONAL CONFERENCE ON MACHINE LEARNING&quot;" target="&quot;STOCKHOLMSM¨ASSAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The conference is held at Stockholmsm¨assan, indicating the venue for academic discussions."</data>
+  <data key="d5">"event venue, collaboration"</data>
+  <data key="d6">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</edge>
+<edge source="&quot;PROCEEDINGS OF THE 35TH INTERNATIONAL CONFERENCE ON MACHINE LEARNING&quot;" target="&quot;MACHINE LEARNING RESEARCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Machine Learning Research publishes the proceedings of the conference, playing an important role in disseminating scientific knowledge."</data>
+  <data key="d5">"publication, knowledge dissemination"</data>
+  <data key="d6">chunk-2d7c1c465da6845a22d14f73db6b298c</data>
+</edge>
+</graph></graphml>

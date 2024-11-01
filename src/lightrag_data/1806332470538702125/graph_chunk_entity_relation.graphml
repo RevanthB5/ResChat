@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;JIN ET AL.&quot;}">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jin et al. are authors of a referenced paper in 2021."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;STECK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Steck is an author who introduced the low-rank EDLAE model in 2020."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;AUTOENCODER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Autoencoder is a type of deep nonlinear network used for unsupervised learning."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;DEEP NONLINEAR AUTOENCODER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Deep Nonlinear Autoencoder is a type of autoencoder that is trained with the objective of reproducing the output from the input."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;LINEAR AUTOENCODER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Linear Autoencoder is a type of autoencoder that is trained with the objective of reproducing the output from the input, with a constraint on the dimensionality of the last hidden layer."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;LOW-RANK EDLAE MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Low-rank EDLAE Model is a type of linear autoencoder with a constraint on the diagonal of the learned low-rank parameter-matrix for improved generalization."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;UNSUPERVISED LEARNING&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Unsupervised Learning is a type of machine learning where the model is trained without labeled data."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;SUPERVISED SETTING&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Supervised Setting is a type of machine learning where the model is trained with labeled data."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;NONLINEAR MODELS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Nonlinear Models are types of machine learning models that can learn complex relationships between inputs and outputs."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;REGULARIZATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Regularization is a technique used in machine learning to prevent overfitting and improve model generalization."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;MODEL CAPACITY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Model Capacity refers to the ability of a model to fit a wide range of functions."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;TRAINING DATA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Training Data is the data used to train a machine learning model."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;HIDDEN LAYER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Hidden Layer is a layer in a neural network that is not directly connected to the input or output."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;PARAMETER MATRIX&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Parameter Matrix is a matrix of weights and biases in a neural network."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;DATA SETS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Data Sets are collections of data used for training and testing machine learning models."</data>
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</node>
+<node id="&quot;JIN ET AL.&quot;">
+  <data key="d2">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+  <data key="d1">"Jin et al.'s work is referenced in the context of unsupervised learning using autoencoders."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;STECK&quot;" target="&quot;LOW-RANK EDLAE MODEL&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Steck introduced the Low-rank EDLAE Model, which is a type of linear autoencoder."</data>
+  <data key="d5">"authorship, model introduction"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;AUTOENCODER&quot;" target="&quot;JIN ET AL.&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"Jin et al.'s work is referenced in the context of unsupervised learning using autoencoders."</data>
+  <data key="d5">"reference, unsupervised learning"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;AUTOENCODER&quot;" target="&quot;UNSUPERVISED LEARNING&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Autoencoder is used for unsupervised learning, with the objective of reproducing the output from the input."</data>
+  <data key="d5">"application, unsupervised learning"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;AUTOENCODER&quot;" target="&quot;DATA SETS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Data Sets are used to train and test Autoencoder models."</data>
+  <data key="d5">"application, model training"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;DEEP NONLINEAR AUTOENCODER&quot;" target="&quot;LINEAR AUTOENCODER&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Deep Nonlinear Autoencoder and Linear Autoencoder are compared in terms of their model capacity."</data>
+  <data key="d5">"comparison, model capacity"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;DEEP NONLINEAR AUTOENCODER&quot;" target="&quot;MODEL CAPACITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Deep Nonlinear Autoencoder's model capacity is compared to that of Linear Autoencoder."</data>
+  <data key="d5">"comparison, model capacity"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;LOW-RANK EDLAE MODEL&quot;" target="&quot;PARAMETER MATRIX&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Low-rank EDLAE Model has a constraint on the diagonal of the learned Parameter Matrix."</data>
+  <data key="d5">"model component, constraint"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;UNSUPERVISED LEARNING&quot;" target="&quot;SUPERVISED SETTING&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Unsupervised Learning is contrasted with Supervised Setting in terms of the availability of labeled data."</data>
+  <data key="d5">"contrast, labeled data"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;NONLINEAR MODELS&quot;" target="&quot;REGULARIZATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nonlinear Models can benefit from regularization to prevent overfitting."</data>
+  <data key="d5">"application, overfitting prevention"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+<edge source="&quot;TRAINING DATA&quot;" target="&quot;HIDDEN LAYER&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Training Data is used to train the Hidden Layer in a neural network."</data>
+  <data key="d5">"application, neural network training"</data>
+  <data key="d6">chunk-7fe946787d7fd2c26a60368ea3cb0fad</data>
+</edge>
+</graph></graphml>

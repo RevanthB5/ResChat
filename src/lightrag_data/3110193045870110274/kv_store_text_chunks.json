@@ -1,0 +1,8 @@
+{
+  "chunk-02f9e2c2053047e90e593b3c8704f3be": {
+    "tokens": 168,
+    "content": "In this work, we explore regions as a potential visual analogue of words for\nself-supervised image representation learning. Inspired by Masked Autoencoding\n(MAE), a generative pre-training baseline, we propose masked region\nautoencoding to learn from groups of pixels or regions. Specifically, we design\nan architecture which efficiently addresses the one-to-many mapping between\nimages and regions, while being highly effective especially with high-quality\nregions. When integrated with MAE, our approach (R-MAE) demonstrates consistent\nimprovements across various pre-training datasets and downstream detection and\nsegmentation benchmarks, with negligible computational overheads. Beyond the\nquantitative evaluation, our analysis indicates the models pre-trained with\nmasked region autoencoding unlock the potential for interactive segmentation.\nThe code is provided at https://github.com/facebookresearch/r-mae.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-02f9e2c2053047e90e593b3c8704f3be"
+  }
+}

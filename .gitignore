@@ -1,0 +1,49 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+lib/
+
+# Environment variables
+.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore data contents but keep the folders
+/data/papers/*
+!/data/papers/.gitkeep
+
+/dataset/*
+!/dataset/.gitkeep
+
+/lightrag_data/*
+!/lightrag_data/.gitkeep
+
+# Ignore model contents but keep the folders
+/models/abstracts/*
+!/models/abstracts/.gitkeep
+
+/models/embeddings/*
+!/models/embeddings/.gitkeep
+
+/models/sentences/*
+!/models/sentences/.gitkeep
+
+# Ignore any temporary or cache files
+*.log
+*.tmp
+*.cache
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db

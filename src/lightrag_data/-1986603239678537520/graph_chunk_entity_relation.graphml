@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;AUTOENCODER MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Autoencoder Model is a type of model that uses decision trees for encoding and decoding functions."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;DECISION TREE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Decision Tree is a type of tree used in the autoencoder model, implementing soft multivariate splits and averaging outputs."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;ENCODER TREE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Encoder Tree is a component of the autoencoder model, taking input and generating a lower dimensional representation."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;DECODER TREE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Decoder Tree is a component of the autoencoder model, taking the output of the encoder tree and reconstructing the original input."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;STOCHASTIC GRADIENT DESCENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Stochastic Gradient Descent is a training method used for the autoencoder trees."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;HANDWRITTEN DIGIT DATA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Handwritten Digit Data is a type of data used for testing the autoencoder trees."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;NEWS DATA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"News Data is a type of data used for testing the autoencoder trees."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;SOFT DECISION TREE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Soft Decision Tree is a type of decision tree used in the autoencoder model, implementing soft multivariate splits."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;GATING FUNCTION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Gating Function is a component of the soft decision tree, used to realize soft multivariate splits."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;INPUT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Input is the data fed into the encoder tree."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;LEAVES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Leaves are the output of the encoder tree, representing a lower dimensional representation of the input."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;INTERNAL NODES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Internal Nodes are components of the decision tree, realizing soft multivariate splits."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;AUTOENCODER PERCEPTRONS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Autoencoder Perceptrons are a type of autoencoder model, used for comparison with the autoencoder trees."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;HIERARCHICAL REPRESENTATIONS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Hierarchical Representations refer to the capture of representations at different granularities of the data."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<node id="&quot;LOCALITIES IN THE INPUT SPACE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Localities in the Input Space refer to the capture of local patterns in the input data."</data>
+  <data key="d2">chunk-cd358773e08804112effff98c247d597</data>
+</node>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;DECISION TREE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The Autoencoder Model uses Decision Trees for encoding and decoding functions."</data>
+  <data key="d5">"model component, functional relationship"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;STOCHASTIC GRADIENT DESCENT&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The Autoencoder Model is trained using Stochastic Gradient Descent."</data>
+  <data key="d5">"training method, model optimization"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;HANDWRITTEN DIGIT DATA&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"The Handwritten Digit Data is used to test the Autoencoder Model."</data>
+  <data key="d5">"data usage, model evaluation"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;NEWS DATA&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"The News Data is used to test the Autoencoder Model."</data>
+  <data key="d5">"data usage, model evaluation"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;AUTOENCODER PERCEPTRONS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The Autoencoder Perceptrons are compared to the Autoencoder Model."</data>
+  <data key="d5">"model comparison, performance evaluation"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;HIERARCHICAL REPRESENTATIONS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Autoencoder Model captures Hierarchical Representations of the data."</data>
+  <data key="d5">"model capability, data representation"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;AUTOENCODER MODEL&quot;" target="&quot;LOCALITIES IN THE INPUT SPACE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Autoencoder Model captures Localities in the Input Space."</data>
+  <data key="d5">"model capability, data representation"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;DECISION TREE&quot;" target="&quot;INTERNAL NODES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Internal Nodes are components of the Decision Tree."</data>
+  <data key="d5">"component interaction, tree structure"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;ENCODER TREE&quot;" target="&quot;DECODER TREE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The Encoder Tree generates a lower dimensional representation, which is used by the Decoder Tree."</data>
+  <data key="d5">"information flow, reconstruction"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;ENCODER TREE&quot;" target="&quot;INPUT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Input is fed into the Encoder Tree."</data>
+  <data key="d5">"information flow, input processing"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;ENCODER TREE&quot;" target="&quot;LEAVES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Leaves are the output of the Encoder Tree."</data>
+  <data key="d5">"information flow, output generation"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+<edge source="&quot;SOFT DECISION TREE&quot;" target="&quot;GATING FUNCTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Soft Decision Tree uses Gating Function to realize soft multivariate splits."</data>
+  <data key="d5">"functional relationship, component interaction"</data>
+  <data key="d6">chunk-cd358773e08804112effff98c247d597</data>
+</edge>
+</graph></graphml>

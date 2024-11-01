@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;AUTOENCODERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Autoencoders are a type of neural network used for dimensionality reduction, data disentangling, and image restoration."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;ENCODER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Encoder is a part of autoencoders responsible for dimensionality reduction and data disentangling."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;PCA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"PCA is a dimensionality reduction technique compared to autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;DECISION TREES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Decision trees are a classification technique compared to autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;CONVOLUTIONAL NEURAL NETWORKS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Convolutional neural networks are a type of neural network interpreted by the theoretical framework of autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;RANDOMLY WEIGHTED NEURAL NETWORKS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Randomly weighted neural networks are a type of neural network interpreted by the theoretical framework of autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;AUTHORS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Authors are the researchers who proposed the theoretical framework on the mechanism of autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;VARIATIONAL AUTOENCODERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Variational autoencoders are a type of autoencoder with experimental results explained by the theoretical framework."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;DENOISING AUTOENCODERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Denoising autoencoders are a type of autoencoder with experimental results explained by the theoretical framework."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;LINEAR-UNIT AUTOENCODERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Linear-unit autoencoders are a type of autoencoder with experimental results explained by the theoretical framework."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;IMAGE RESTORATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Image restoration is a task that can be achieved through autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;DIMENSIONALITY REDUCTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Dimensionality reduction is a task that can be achieved through autoencoders and PCA."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;DATA DISENTANGLING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Data disentangling is a task that can be achieved through autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;CLASSIFICATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Classification is a task that can be achieved through autoencoders and decision trees."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;BIJECTIVE MAPS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Bijective maps are a fundamental property of encoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;GENERAL CONSTRUCTION METHODS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"General construction methods are used to build encoders with bijective maps and data disentangling."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<node id="&quot;THEORETICAL FRAMEWORK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Theoretical framework is a concept used to explain the mechanism of autoencoders."</data>
+  <data key="d2">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</node>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;ENCODER&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Autoencoders consist of an encoder part responsible for dimensionality reduction and data disentangling."</data>
+  <data key="d5">"composition, dimensionality reduction"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;PCA&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"Autoencoders are compared to PCA in terms of dimensionality reduction."</data>
+  <data key="d5">"comparison, dimensionality reduction"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;DECISION TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Autoencoders are compared to decision trees in terms of classification."</data>
+  <data key="d5">"comparison, classification"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;AUTHORS&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Authors proposed the theoretical framework on the mechanism of autoencoders."</data>
+  <data key="d5">"authorship, theoretical framework"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;VARIATIONAL AUTOENCODERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Variational autoencoders are a type of autoencoder."</data>
+  <data key="d5">"subtype, autoencoder"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;DENOISING AUTOENCODERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Denoising autoencoders are a type of autoencoder."</data>
+  <data key="d5">"subtype, autoencoder"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;LINEAR-UNIT AUTOENCODERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Linear-unit autoencoders are a type of autoencoder."</data>
+  <data key="d5">"subtype, autoencoder"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;IMAGE RESTORATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Autoencoders can be used for image restoration."</data>
+  <data key="d5">"application, image restoration"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;DIMENSIONALITY REDUCTION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Autoencoders can be used for dimensionality reduction."</data>
+  <data key="d5">"application, dimensionality reduction"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;DATA DISENTANGLING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Autoencoders can be used for data disentangling."</data>
+  <data key="d5">"application, data disentangling"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;AUTOENCODERS&quot;" target="&quot;CLASSIFICATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Autoencoders can be used for classification."</data>
+  <data key="d5">"application, classification"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;ENCODER&quot;" target="&quot;BIJECTIVE MAPS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Encoder maps are bijective."</data>
+  <data key="d5">"property, bijective maps"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+<edge source="&quot;ENCODER&quot;" target="&quot;DATA DISENTANGLING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Encoder disentangles data."</data>
+  <data key="d5">"property, data disentangling"</data>
+  <data key="d6">chunk-665759e1f61e579fcf603eddd3bfe0d9</data>
+</edge>
+</graph></graphml>

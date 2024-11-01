@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;DEEP NEURAL NETWORK AUTOENCODERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Deep neural network autoencoders are a type of computational model used for model reduction."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;THE AUTHORS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The authors are the researchers who wrote the text, explaining the concept of deep neural network autoencoders."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;$\MATHBB{R}^N$&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"$\mathbb{R}^n$ is a mathematical concept representing an input Euclidean space of dimension n."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;$\MATHBB{R}^K$&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"$\mathbb{R}^k$ is a mathematical concept representing a k-dimensional subset of $\mathbb{R}^n$."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;K&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"K is a k-dimensional subset of $\mathbb{R}^n$."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;MODEL REDUCTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Model reduction is the process of reducing the dimension of a dataset."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;ENCODING LAYER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Encoding layer is a component of deep neural network autoencoders that maps input data to a lower-dimensional space."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;DECODING LAYER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Decoding layer is a component of deep neural network autoencoders that maps the lower-dimensional space back to the original input space."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;BOTTLENECK LAYER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Bottleneck layer is another term for the encoding layer in deep neural network autoencoders."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;SPACE OF LATENT VARIABLES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Space of latent variables is the lower-dimensional space represented by the bottleneck layer."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;NEURAL NETWORKS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Neural networks are a type of machine learning model."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;ACTIVATION FUNCTIONS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Activation functions are used in neural networks to introduce non-linearity into the computation."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;DIFFERENTIAL TOPOLOGY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Differential topology is a field of mathematics used to explain the effectiveness of deep neural network autoencoders."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;COMPUTATIONAL EXAMPLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A computational example is provided to illustrate the ideas of deep neural network autoencoders."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<node id="&quot;WEIGHTS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Weights are parameters in neural networks that are adjusted during training."</data>
+  <data key="d2">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</node>
+<edge source="&quot;DEEP NEURAL NETWORK AUTOENCODERS&quot;" target="&quot;THE AUTHORS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The authors explain the concept of deep neural network autoencoders."</data>
+  <data key="d5">"explanation, model reduction"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;DEEP NEURAL NETWORK AUTOENCODERS&quot;" target="&quot;$\MATHBB{R}^N$&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Deep neural network autoencoders are used to reduce the dimension of $\mathbb{R}^n$ to $\mathbb{R}^k$."</data>
+  <data key="d5">"dimensionality reduction, model reduction"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;DEEP NEURAL NETWORK AUTOENCODERS&quot;" target="&quot;MODEL REDUCTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Deep neural network autoencoders are used for model reduction."</data>
+  <data key="d5">"application, dimensionality reduction"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;DEEP NEURAL NETWORK AUTOENCODERS&quot;" target="&quot;DIFFERENTIAL TOPOLOGY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Differential topology is used to explain the effectiveness of deep neural network autoencoders."</data>
+  <data key="d5">"explanation, mathematical concept"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;DEEP NEURAL NETWORK AUTOENCODERS&quot;" target="&quot;COMPUTATIONAL EXAMPLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"A computational example is provided to illustrate the ideas of deep neural network autoencoders."</data>
+  <data key="d5">"illustration, machine learning"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;$\MATHBB{R}^N$&quot;" target="&quot;$\MATHBB{R}^K$&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"$\mathbb{R}^n$ is reduced to $\mathbb{R}^k$ using deep neural network autoencoders."</data>
+  <data key="d5">"dimensionality reduction, mathematical concept"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;$\MATHBB{R}^K$&quot;" target="&quot;K&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"K is a subset of $\mathbb{R}^k$."</data>
+  <data key="d5">"subset, mathematical concept"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;ENCODING LAYER&quot;" target="&quot;DECODING LAYER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The encoding layer and decoding layer are components of deep neural network autoencoders."</data>
+  <data key="d5">"component, neural networks"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;BOTTLENECK LAYER&quot;" target="&quot;SPACE OF LATENT VARIABLES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The bottleneck layer represents the space of latent variables."</data>
+  <data key="d5">"representation, dimensionality reduction"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;NEURAL NETWORKS&quot;" target="&quot;ACTIVATION FUNCTIONS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Neural networks use activation functions to introduce non-linearity."</data>
+  <data key="d5">"component, machine learning"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+<edge source="&quot;NEURAL NETWORKS&quot;" target="&quot;WEIGHTS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Weights are adjusted during training of neural networks."</data>
+  <data key="d5">"training, machine learning"</data>
+  <data key="d6">chunk-4663038186c0d2b2f2e2d44ef682a821</data>
+</edge>
+</graph></graphml>
