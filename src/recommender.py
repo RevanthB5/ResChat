@@ -47,6 +47,10 @@ class EnhancedPaperRecommender:
         3. Including related concepts
         4. Incorporating key methodologies
         Keep the enhanced query concise but comprehensive.
+        Input: "quantum computing"
+        Enhanced: "quantum computing, qubits, quantum gates, 
+          quantum entanglement, quantum algorithms, 
+          quantum error correction"
         Format: Enhanced Query: <query>"""
         
         response =  self.groq_model.invoke([{"role": "user", "content": enhancement_prompt}])
