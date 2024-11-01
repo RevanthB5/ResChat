@@ -44,7 +44,7 @@ reschat/
     ├── app.py            # Streamlit Interface
     ├── rag_manager.py    # LightRAG Integration
     └── recommender.py    # Enhanced Search System
-```bash
+```
 
 ## 💫 Unique Capabilities
 
