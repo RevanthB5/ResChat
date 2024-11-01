@@ -1,5 +1,0 @@
-{
-  "doc-bcb091b63704e02477a148cd3d976815": {
-    "content": "In this paper we propose Structuring AutoEncoders (SAE). SAEs are neural\nnetworks which learn a low dimensional representation of data which are\nadditionally enriched with a desired structure in this low dimensional space.\nWhile traditional Autoencoders have proven to structure data naturally they\nfail to discover semantic structure that is hard to recognize in the raw data.\nThe SAE solves the problem by enhancing a traditional Autoencoder using weak\nsupervision to form a structured latent space. In the experiments we\ndemonstrate, that the structured latent space allows for a much more efficient\ndata representation for further tasks such as classification for sparsely\nlabeled data, an efficient choice of data to label, and morphing between\nclasses. To demonstrate the general applicability of our method, we show\nexperiments on the benchmark image datasets MNIST, Fashion-MNIST, DeepFashion2\nand on a dataset of 3D human shapes."
-  }
-}

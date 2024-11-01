@@ -1,5 +1,0 @@
-{
-  "doc-70a61bad1b1c0a177764c86f48e22eda": {
-    "content": "In this paper, we describe the \"implicit autoencoder\" (IAE), a generative\nautoencoder in which both the generative path and the recognition path are\nparametrized by implicit distributions. We use two generative adversarial\nnetworks to define the reconstruction and the regularization cost functions of\nthe implicit autoencoder, and derive the learning rules based on\nmaximum-likelihood learning. Using implicit distributions allows us to learn\nmore expressive posterior and conditional likelihood distributions for the\nautoencoder. Learning an expressive conditional likelihood distribution enables\nthe latent code to only capture the abstract and high-level information of the\ndata, while the remaining low-level information is captured by the implicit\nconditional likelihood distribution. We show the applications of implicit\nautoencoders in disentangling content and style information, clustering,\nsemi-supervised classification, learning expressive variational distributions,\nand multimodal image-to-image translation from unpaired data."
-  }
-}

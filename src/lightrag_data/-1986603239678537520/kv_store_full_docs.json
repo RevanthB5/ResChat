@@ -1,5 +1,0 @@
-{
-  "doc-cd358773e08804112effff98c247d597": {
-    "content": "We discuss an autoencoder model in which the encoding and decoding functions\nare implemented by decision trees. We use the soft decision tree where internal\nnodes realize soft multivariate splits given by a gating function and the\noverall output is the average of all leaves weighted by the gating values on\ntheir path. The encoder tree takes the input and generates a lower dimensional\nrepresentation in the leaves and the decoder tree takes this and reconstructs\nthe original input. Exploiting the continuity of the trees, autoencoder trees\nare trained with stochastic gradient descent. On handwritten digit and news\ndata, we see that the autoencoder trees yield good reconstruction error\ncompared to traditional autoencoder perceptrons. We also see that the\nautoencoder tree captures hierarchical representations at different\ngranularities of the data on its different levels and the leaves capture the\nlocalities in the input space."
-  }
-}
