@@ -44,7 +44,7 @@ reschat/
     ├── app.py            # Streamlit Interface
     ├── rag_manager.py    # LightRAG Integration
     └── recommender.py    # Enhanced Search System
-```
+```bash
 
 ## 💫 Unique Capabilities
 
@@ -88,9 +88,6 @@ Enhanced: "quantum computing, qubits, quantum gates,
 3. **Launch Application**
 
    ```bash
-   streamlit run src/app.py
-   ```
-
    streamlit run src/app.py
    ```
 
