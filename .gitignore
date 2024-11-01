@@ -38,6 +38,11 @@ env/
 /models/sentences/*
 !/models/sentences/.gitkeep
 
+# Ignore lightrag_data contents but keep the folders
+/src/lightrag_data/*
+!/src/lightrag_data/.gitkeep
+
+
 # Ignore any temporary or cache files
 *.log
 *.tmp
