@@ -68,17 +68,17 @@ class EnhancedPaperRecommender:
                 Format your response in this exact structure:
                 Original Query: {query}
 
-                ENHANCED_QUERY: [primary terms], [methodological terms], [related concepts], [technical specifications]
+                Output: [primary terms], [methodological terms], [related concepts], [technical specifications]
 
                 Examples:
 
                 Input: "machine learning for healthcare"
-                ENHANCED_QUERY: machine learning, artificial intelligence, healthcare analytics, supervised learning, deep learning, neural networks, clinical decision support systems, precision medicine, predictive diagnostics, ML algorithms, biomedical data mining, electronic health records (EHR)
+                Output: machine learning, artificial intelligence, healthcare analytics, supervised learning, deep learning, neural networks, clinical decision support systems, precision medicine, predictive diagnostics, ML algorithms, biomedical data mining, electronic health records (EHR)
 
                 Input: "quantum computing"
-                ENHANCED_QUERY: quantum computing, quantum information processing, quantum mechanics, quantum gates, quantum circuits, quantum algorithms, quantum entanglement, quantum superposition, quantum coherence, qubits, quantum error correction, quantum supremacy
+                Output: quantum computing, quantum information processing, quantum mechanics, quantum gates, quantum circuits, quantum algorithms, quantum entanglement, quantum superposition, quantum coherence, qubits, quantum error correction, quantum supremacy
 
-                Now, enhance the following query while maintaining high relevance and avoiding topic drift:
+                Now, enhance the following query while maintaining high relevance and avoiding topic drift (output should only the query and NO EXPLAINATION OR SUBHEADINGS):
                 {query}"""
         
         response =  self.groq_model.invoke([{"role": "user", "content": enhancement_prompt}])
