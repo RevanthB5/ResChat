@@ -94,7 +94,7 @@ Enhanced: "quantum computing, qubits, quantum gates,
 ## 🔋 Core Dependencies
 
 - **LightRAG**: Powers knowledge graph generation and contextual retrieval
-- **Groq**: Drives query enhancement using Mixtral-8x7b
+- **Groq**: Drives query enhancement using Llama3 70B
 - **SentenceTransformers**: Enables semantic search capabilities
 - **PyVis**: Powers interactive knowledge graph visualization
 - **Streamlit**: Provides the responsive web interface
