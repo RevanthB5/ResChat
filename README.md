@@ -1,6 +1,6 @@
 # ResChat: AI-Powered Research Paper Assistant
 
-[![Made with LightRAG](https://img.shields.io/badge/Made_with-LightRAG-blue.svg)](https://github.com/lightrag)
+[![Made with LightRAG](https://img.shields.io/badge/Made_with-LightRAG-blue.svg)](https://github.com/HKUDS/LightRAG)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
 ResChat is an innovative research paper assistant that combines the power of Knowledge Graphs, Experience-Based Learning, and Dynamic Query Enhancement to improve researchers' interactions with academic literature.
