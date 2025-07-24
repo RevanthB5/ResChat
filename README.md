@@ -5,27 +5,27 @@
 
 ResChat is an innovative research paper assistant that combines the power of Knowledge Graphs, Experience-Based Learning, and Dynamic Query Enhancement to improve researchers' interactions with academic literature.
 
-## 🌟 Key Features
+## Key Features
 
-### 🧠 Intelligent Query Enhancement
+### Intelligent Query Enhancement
 
 - **Dynamic Query Expansion**: Automatically enhances search queries using Groq's Llama3 70b model
 - **Academic Term Integration**: Adds relevant terminology and expands abbreviations
 - **Methodology Awareness**: Incorporates related research methodologies in search
 
-### 📊 Experience-Adaptive Interface
+### Experience-Adaptive Interface
 
 - **Four Learning Levels**: Customized responses for Beginner, Intermediate, Advanced, and Expert levels
 - **Dynamic Content Adaptation**: Adjusts technical depth based on user expertise
 - **Contextual Prompting**: Tailors explanations to match user's background
 
-### 🕸️ Visual Knowledge Mapping
+### Visual Knowledge Mapping
 
 - **Interactive Knowledge Graphs**: Visualizes paper relationships and concept connections
 - **Dynamic Graph Physics**: Real-time interaction with knowledge structures
 - **Entity-Relation Visualization**: Shows connections between research concepts
 
-### 🔍 Dual Search Modes
+### Dual Search Modes
 
 - **Quick Title Search**: Fast matching using MiniLM embeddings
 - **Deep Abstract Analysis**: Comprehensive semantic search through paper abstracts
@@ -34,18 +34,18 @@ ResChat is an innovative research paper assistant that combines the power of Kno
 
 ```plaintext
 reschat/
-├── 🧮 Models/
+├──  Models/
 │   ├── embeddings/    # MiniLM-L6-v2 Title Embeddings
 │   └── abstracts/     # Research Paper Embeddings
-├── 🔄 LightRAG/
+├── LightRAG/
 │   └── knowledge_graphs/  # Paper-specific Knowledge Graphs
-└── 🎯 src/
+└──  src/
     ├── app.py            # Streamlit Interface
     ├── rag_manager.py    # LightRAG Integration
     └── recommender.py    # Enhanced Search System
 ```
 
-## 💫 Unique Capabilities
+## Unique Capabilities
 
 ### Experience-Based Response Generation
 
@@ -68,7 +68,7 @@ Enhanced: "quantum computing, qubits, quantum gates,
           quantum error correction"
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Environment Setup**
 
@@ -90,7 +90,7 @@ Enhanced: "quantum computing, qubits, quantum gates,
    streamlit run src/app.py
    ```
 
-## 🔋 Core Dependencies
+## Core Dependencies
 
 - **LightRAG**: Powers knowledge graph generation and contextual retrieval
 - **Groq**: Drives query enhancement using Llama3 70B
@@ -98,13 +98,13 @@ Enhanced: "quantum computing, qubits, quantum gates,
 - **PyVis**: Powers interactive knowledge graph visualization
 - **Streamlit**: Provides the responsive web interface
 
-## 📈 Performance Features
+## Performance Features
 
 - **Asynchronous Processing**: Non-blocking PDF content extraction
 - **Dynamic Graph Physics**: Interactive knowledge visualization
 - **Contextual Memory**: Paper-specific knowledge graph generation
 
-## 🎯 Use Cases
+## Use Cases
 
 1. **Literature Review**: Quickly understand research landscapes
 2. **Concept Learning**: Experience-based explanation of complex topics
