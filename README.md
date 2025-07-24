@@ -30,7 +30,7 @@ ResChat is an innovative research paper assistant that combines the power of Kno
 - **Quick Title Search**: Fast matching using MiniLM embeddings
 - **Deep Abstract Analysis**: Comprehensive semantic search through paper abstracts
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ```plaintext
 reschat/
